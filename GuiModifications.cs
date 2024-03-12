@@ -47,7 +47,7 @@ namespace Splotch.Loader
 
             // change settings
             textComponent.font = LocalizedText.localizationTable.GetFont(Settings.Get().Language, false);
-            textComponent.color = Color.Lerp(Color.blue, Color.black, 0.6f);
+            textComponent.color = Color.black;
 
             // not sure what this is I stole it from WackyModer lol
             textComponent.raycastTarget = false;
